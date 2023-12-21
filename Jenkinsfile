@@ -13,6 +13,7 @@ pipeline{
            echo "Test step"
          }
      }
+   }
 
 post{
 
@@ -24,4 +25,4 @@ post{
       echo "success"
    }
    }
-}
+
