@@ -4,7 +4,7 @@ pipeline{
      stage("build"){
          steps{
            echo "Build step"
-            sh 'yum install httpd'
+            git "https://github.com/ankithaT27/myfirstrepository.git"
          }
      }
 
