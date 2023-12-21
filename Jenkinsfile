@@ -14,15 +14,15 @@ pipeline{
          }
      }
    }
-
-post{
+//adding post steps
+   post{
 
    failure{
-      echo "failure"
+      echo " run if failure"
 }
 
    success{
-      echo "success"
+      echo " run if success"
    }
    }
 }
