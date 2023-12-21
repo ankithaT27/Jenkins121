@@ -14,7 +14,14 @@ pipeline{
          }
      }
 
+post{
 
+   failure{
+      echo "failure"
+}
 
+   success{
+      echo "success"
+   }
    }
 }
