@@ -1,0 +1,4 @@
+This is a file to add github webhook
+
+http://13.233.132.82:8080/github-webhook/
+(configure jenkins and github together)--> setting-->webhook-->add this url 
