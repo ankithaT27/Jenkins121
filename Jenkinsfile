@@ -5,7 +5,7 @@ pipeline{
          steps{
            echo "Build step"
             git "https://github.com/ankithaT27/myfirstrepository.git"
-            sh "httpd install"
+            //sh "httpd install"
          }
      }
 
