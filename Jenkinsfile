@@ -5,6 +5,12 @@ pipeline{
          steps{
            echo "Build step"
               }
+
+     stage("test"){
+       steps{
+          echo "test step"
+       }
+     }
                     }
         }
 }
